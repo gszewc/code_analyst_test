@@ -1,0 +1,17 @@
+{
+  "project_id": "test-project-id",
+  "nodes": [
+    {
+      "id": "node-file-1",
+      "type": "File",
+      "name": "app.py",
+      "source_file": "application/app.py"
+    },
+    {
+      "id": "node-class-1",
+      "type": "Class",
+      "name": "App",
+      "source_file": "application/app.py"
+    }
+  ]
+}

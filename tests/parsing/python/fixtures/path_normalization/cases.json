@@ -1,0 +1,19 @@
+{
+  "project_root": "/tmp/uploads/project-1235/source",
+  "cases": [
+    {
+      "input": "/tmp/uploads/project-1235/source/application/app.py",
+      "expected": "application/app.py"
+    },
+    {
+      "input": "/tmp/uploads/project-1235/source/main.py",
+      "expected": "main.py"
+    }
+  ],
+  "invalid_cases": [
+    {
+      "input": "/tmp/uploads/project-1235/other/outside.py",
+      "error_contains": "outside project root"
+    }
+  ]
+}

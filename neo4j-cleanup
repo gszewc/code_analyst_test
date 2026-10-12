@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+"""
+Neo4j Database Cleanup CLI entry point.
+"""
+
+import sys
+from codeminer.database.cli import main
+
+if __name__ == '__main__':
+    sys.exit(main())

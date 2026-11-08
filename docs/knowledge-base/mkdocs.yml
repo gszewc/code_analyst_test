@@ -1,0 +1,17 @@
+site_name: Code Analyst — Functional Knowledge Base
+docs_dir: docs
+nav:
+  - Overview: INDEX.md
+  - UI:
+      - Theme Switching v0.1.0: ui/theme-switching/theme-switching-0.1.0.md
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - content.code.copy
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
